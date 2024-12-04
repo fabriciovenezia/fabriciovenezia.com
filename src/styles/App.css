@@ -1,0 +1,118 @@
+/* Main container of the app */
+.app-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+/* Content area where the main text will appear */
+.content-area {
+    flex: 1;
+    padding-top: 80px;
+    padding-left: 6vw;
+    padding-bottom: 10vh;
+    overflow-y: auto;
+}
+
+/* Image wrapper that holds the doctor image */
+.fixed-image-wrapper {
+    width: 30%;
+    height: 80%;
+    position: absolute;
+    top: 80px;
+    right: 5%;
+    bottom: 10vh;
+    border-radius: 16px;
+    overflow: hidden; /* Ensures the image stays inside the wrapper */
+    transform-origin: top center; /* Scale effect starts from the top */
+    transition: transform 0.5s ease; /* Smooth transition */
+}
+
+/* Style the image itself */
+.fixed-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    pointer-events: none; /* Prevent interactions with the image */
+}
+
+/* Scaling rules for different screen heights */
+@media (min-height: 700px) {
+    .fixed-image-wrapper {
+        transform: scale(1); /* No scaling */
+    }
+}
+
+@media (max-height: 700px) {
+    .fixed-image-wrapper {
+        transform: scale(0.85); /* Scale container height */
+    }
+}
+
+@media (max-height: 600px) {
+    .fixed-image-wrapper {
+        transform: scale(0.8); /* Scale container height */
+    }
+}
+
+@media (max-height: 500px) {
+    .fixed-image-wrapper {
+        transform: scale(0); /* Scale container height */
+    }
+}
+
+/* Mobile specific adjustments */
+@media (max-width: 900px) {
+    .app-container {
+        flex-direction: column; /* Stack elements vertically on mobile */
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .content-area {
+        padding-top: 50px;
+        padding-left: 7vw;
+        padding-bottom: 0vh;
+        width: 90%; /* Ensure content takes full width */
+        padding-bottom: 60px;
+    }
+
+    .fixed-image-wrapper {
+        width: 90%; /* Full width */
+        height: 70vw; /* Adjust height for mobile */
+        position: relative;
+        top: 40px;
+        left: 0px;
+        margin-bottom: 20px; /* Add space between content and image */
+        border-radius: 16px;
+    }
+
+    .fixed-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        pointer-events: none; /* Prevent interactions with the image */
+    }
+
+    /* Language switcher adjustments for mobile */
+    .language-switcher {
+        position: static; /* Remove absolute positioning */
+        justify-content: flex-end; /* Align to the left */
+        margin-top: -10px;
+        margin-bottom: 0px; /* Add space below switcher */
+        font-size: 16px; /* Adjust font size for mobile */
+        padding-right: 6vw;
+    }
+
+    .language-option {
+        width: auto; /* Allow dynamic width based on content */
+        text-align: center;
+        margin-right: 16px; /* Add spacing between options */
+        font-size: 18px;
+    }
+}
