@@ -1,0 +1,72 @@
+.professional-intro {
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.positions {
+  margin-bottom: 40px;
+}
+
+.position-item {
+  margin-bottom: 30px;
+}
+
+.position-header {
+  margin-bottom: 10px;
+}
+
+.position-header h3 {
+  color: #333;
+  margin-bottom: 5px;
+  font-size: 1.2em;
+}
+
+.workplace {
+  font-weight: 500;
+  display: block;
+  margin-bottom: 3px;
+}
+
+.period {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.description {
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+.achievements h3 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+}
+
+.achievements ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.achievements li {
+  margin-bottom: 12px;
+  position: relative;
+  line-height: 1.5;
+}
+
+.achievements li:before {
+  content: "•";
+  position: absolute;
+  left: -20px;
+  color: #666;
+}
+
+@media (max-width: 900px) {
+  .position-header h3 {
+    font-size: 1.1em;
+  }
+
+  .description {
+    font-size: 0.95em;
+  }
+} 

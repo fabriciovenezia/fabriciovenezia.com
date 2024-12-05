@@ -1,0 +1,45 @@
+.education-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.formal-education {
+  margin-bottom: 30px;
+}
+
+.degree-item {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.year {
+  font-weight: bold;
+}
+
+.institution {
+  font-style: italic;
+}
+
+.continuous-education h3 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.continuous-education ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.continuous-education li {
+  margin-bottom: 12px;
+  position: relative;
+  line-height: 1.5;
+}
+
+.continuous-education li:before {
+  content: "•";
+  position: absolute;
+  left: -20px;
+  color: #666;
+} 
