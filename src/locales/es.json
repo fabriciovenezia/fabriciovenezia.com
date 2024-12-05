@@ -1,85 +1,85 @@
 {
-  "categories": {
-    "biography": "Biografía",
-    "professional": "Experiencia Profesional",
-    "education": "Educación",
-    "contact": "Contacto"
-  },
-  "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent scelerisque erat sit amet eros dictum, ac hendrerit metus tristique. Curabitur sit amet tempor turpis, et varius diam. Nam efficitur libero commodo, vestibulum magna nec, gravida nisi. Ut sit amet maximus lacus, sed facilisis est. Integer gravida sed dolor at iaculis. Ut dictum arcu sagittis nibh ullamcorper, ac mattis tellus molestie.\n\nPellentesque cursus quam eget nisi dignissim, at molestie felis commodo. Curabitur eget tortor interdum, suscipit libero eget, rhoncus ligula. Morbi elementum suscipit nibh at convallis. Praesent condimentum scelerisque nibh at bibendum. Integer tristique tempus arcu, sit amet gravida libero pulvinar scelerisque. Morbi lectus nisl, fermentum nec orci a, ultricies interdum libero.\n\nVestibulum felis purus, gravida dignissim tincidunt sit amet, congue eu erat. Fusce tincidunt, massa vitae hendrerit tincidunt, erat tortor mattis nulla, ultricies elementum dolor metus sit amet felis. Mauris semper pellentesque urna, vitae feugiat justo lobortis quis. Suspendisse aliquet felis sed ipsum ultricies, sit amet scelerisque urna dignissim. Donec semper varius nisi nec condimentum.\n\nAenean id fringilla neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse suscipit risus eu mi iaculis pulvinar. Cras tincidunt ut felis sit amet cursus. Pellentesque aliquet facilisis libero eget bibendum. Phasellus tincidunt semper enim, imperdiet tincidunt felis dignissim sit amet.\n\nCurabitur justo justo, efficitur non bibendum tristique, pellentesque vel massa. Nulla ut sollicitudin augue, elementum malesuada urna. Vestibulum ullamcorper felis sem, eu mattis elit tempor a. Ut accumsan arcu ut odio porta sollicitudin. Nulla feugiat diam ac finibus elementum. Ut dapibus semper semper.",
-  "professional": {
-    "intro": "Más de 30 años de experiencia en odontología, especializado en ortodoncia y estética dental.",
-    "positions": [
-      {
-        "title": "Director",
-        "workplace": "Odontologia Venezia",
-        "period": "2005 - Presente",
-        "description": "Liderando un equipo de profesionales odontológicos, brindando atención integral en ortodoncia y estética dental. Especializado en casos complejos e implementación de tecnologías dentales de vanguardia."
-      },
-      {
-        "title": "Jefe de Ortodoncia",
-        "workplace": "Centro Odontológico Rosario",
-        "period": "1995 - 2005",
-        "description": "Dirigí el departamento de ortodoncia, tratando casos complejos y mentoreando a odontólogos junior. Introduje nuevas técnicas ortodónticas y protocolos de tratamiento."
-      },
-      {
-        "title": "Odontólogo Asociado",
-        "workplace": "Clínica Dental Santa Fe",
-        "period": "1991 - 1995",
-        "description": "Brindé servicios de odontología general mientras desarrollaba experiencia en ortodoncia y estética dental. Participé en numerosos programas de educación continua."
-      }
-    ],
-    "achievements": [
-      "Más de 10.000 casos de ortodoncia tratados exitosamente",
-      "Pionero en la implementación de ortodoncia digital en Rosario",
-      "Conferencista regular en congresos odontológicos nacionales",
-      "Miembro de la Asociación Argentina de Ortodoncia",
-      "Instructor certificado para varios sistemas ortodónticos"
-    ]
-  },
-  "education": {
-    "degrees": [
-      {
-        "year": 1990,
-        "title": "Graduado en Odontología",
-        "institution": "Universidad Nacional de Rosario"
-      },
-      {
-        "year": 1991,
-        "title": "Diplomado en Odontología"
-      },
-      {
-        "year": 2001,
-        "title": "Diplomado en Técnica de Mollin y Arco Recto",
-        "institution": "SAO"
-      }
-    ],
-    "continuousEducationTitle": "Formación continua de posgrado (1992-2018)",
-    "continuousEducation": [
-      "High Velocity Orthodontics",
-      "Técnicas MBT, Roth y Rickets en ortodoncia",
-      "Ortopedia funcional y Ortodoncia rápida",
-      "Tratamiento de retrognasia y promandibulismo con máscara de Delaire-Verdon",
-      "Implantología dental aplicada a ortodoncia y periodoncia",
-      "Prótesis fija y removible, sistemas retenidos por ataches, pernos, imanes y barras tangenciales",
-      "Cirugía gingival y periodontal con láser y cauterio",
-      "Rehabilitación protésica sobre implantes de una fase quirúrgica",
-      "Tratamiento de disfunción de ATM, dolores faciales y cefaleas persistentes"
-    ]
-  },
-  "contact": {
-    "personal": {
-      "title": "Fabricio Venezia",
-      "email": "fabricio@odontologiavenezia.com",
-      "website": "www.fabriciovenezia.com",
-      "instagram": "@od.fabriciovenezia",
-      "whatsapp": "+54 341 5945355"
-    },
-    "clinic": {
-      "title": "Odontologia Venezia",
-      "email": "contacto@odontologiavenezia.com",
-      "website": "www.odontologiavenezia.com",
-      "instagram": "@odontologiavenezia",
-      "phone": "+54 341 8369025"
-    }
-  }
-} 
+	"categories": {
+		"biography": "Biografía",
+		"professional": "Experiencia Profesional",
+		"education": "Educación",
+		"contact": "Contacto"
+	},
+	"biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent scelerisque erat sit amet eros dictum, ac hendrerit metus tristique. Curabitur sit amet tempor turpis, et varius diam. Nam efficitur libero commodo, vestibulum magna nec, gravida nisi. Ut sit amet maximus lacus, sed facilisis est. Integer gravida sed dolor at iaculis. Ut dictum arcu sagittis nibh ullamcorper, ac mattis tellus molestie.\n\nPellentesque cursus quam eget nisi dignissim, at molestie felis commodo. Curabitur eget tortor interdum, suscipit libero eget, rhoncus ligula. Morbi elementum suscipit nibh at convallis. Praesent condimentum scelerisque nibh at bibendum. Integer tristique tempus arcu, sit amet gravida libero pulvinar scelerisque. Morbi lectus nisl, fermentum nec orci a, ultricies interdum libero.\n\nVestibulum felis purus, gravida dignissim tincidunt sit amet, congue eu erat. Fusce tincidunt, massa vitae hendrerit tincidunt, erat tortor mattis nulla, ultricies elementum dolor metus sit amet felis. Mauris semper pellentesque urna, vitae feugiat justo lobortis quis. Suspendisse aliquet felis sed ipsum ultricies, sit amet scelerisque urna dignissim. Donec semper varius nisi nec condimentum.\n\nAenean id fringilla neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse suscipit risus eu mi iaculis pulvinar. Cras tincidunt ut felis sit amet cursus. Pellentesque aliquet facilisis libero eget bibendum. Phasellus tincidunt semper enim, imperdiet tincidunt felis dignissim sit amet.\n\nCurabitur justo justo, efficitur non bibendum tristique, pellentesque vel massa. Nulla ut sollicitudin augue, elementum malesuada urna. Vestibulum ullamcorper felis sem, eu mattis elit tempor a. Ut accumsan arcu ut odio porta sollicitudin. Nulla feugiat diam ac finibus elementum. Ut dapibus semper semper.",
+	"professional": {
+		"intro": "Más de 30 años de experiencia en odontología, especializado en ortodoncia y estética dental.",
+		"positions": [
+			{
+				"title": "Director",
+				"workplace": "Odontologia Venezia",
+				"period": "2005 - Presente",
+				"description": "Liderando un equipo de profesionales odontológicos, brindando atención integral en ortodoncia y estética dental. Especializado en casos complejos e implementación de tecnologías dentales de vanguardia."
+			},
+			{
+				"title": "Jefe de Ortodoncia",
+				"workplace": "Centro Odontológico Rosario",
+				"period": "1995 - 2005",
+				"description": "Dirigí el departamento de ortodoncia, tratando casos complejos y mentoreando a odontólogos junior. Introduje nuevas técnicas ortodónticas y protocolos de tratamiento."
+			},
+			{
+				"title": "Odontólogo Asociado",
+				"workplace": "Clínica Dental Santa Fe",
+				"period": "1991 - 1995",
+				"description": "Brindé servicios de odontología general mientras desarrollaba experiencia en ortodoncia y estética dental. Participé en numerosos programas de educación continua."
+			}
+		],
+		"achievements": [
+			"Más de 10.000 casos de ortodoncia tratados exitosamente",
+			"Pionero en la implementación de ortodoncia digital en Rosario",
+			"Conferencista regular en congresos odontológicos nacionales",
+			"Miembro de la Asociación Argentina de Ortodoncia",
+			"Instructor certificado para varios sistemas ortodónticos"
+		]
+	},
+	"education": {
+		"degrees": [
+			{
+				"year": 1990,
+				"title": "Graduado en Odontología",
+				"institution": "Universidad Nacional de Rosario"
+			},
+			{
+				"year": 1991,
+				"title": "Diplomado en Odontología"
+			},
+			{
+				"year": 2001,
+				"title": "Diplomado en Técnica de Mollin y Arco Recto",
+				"institution": "SAO"
+			}
+		],
+		"continuousEducationTitle": "Formación continua de posgrado (1992-2018)",
+		"continuousEducation": [
+			"High Velocity Orthodontics",
+			"Técnicas MBT, Roth y Rickets en ortodoncia",
+			"Ortopedia funcional y Ortodoncia rápida",
+			"Tratamiento de retrognasia y promandibulismo con máscara de Delaire-Verdon",
+			"Implantología dental aplicada a ortodoncia y periodoncia",
+			"Prótesis fija y removible, sistemas retenidos por ataches, pernos, imanes y barras tangenciales",
+			"Cirugía gingival y periodontal con láser y cauterio",
+			"Rehabilitación protésica sobre implantes de una fase quirúrgica",
+			"Tratamiento de disfunción de ATM, dolores faciales y cefaleas persistentes"
+		]
+	},
+	"contact": {
+		"personal": {
+			"title": "Fabricio Venezia",
+			"email": "fabricio@odontologiavenezia.com",
+			"website": "www.fabriciovenezia.com",
+			"instagram": "@od.fabriciovenezia",
+			"whatsapp": "+54 341 5945355"
+		},
+		"clinic": {
+			"title": "Odontologia Venezia",
+			"email": "contacto@odontologiavenezia.com",
+			"website": "www.odontologiavenezia.com",
+			"instagram": "@odontologiavenezia",
+			"phone": "+54 341 8369025"
+		}
+	}
+}
