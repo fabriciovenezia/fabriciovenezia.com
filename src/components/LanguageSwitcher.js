@@ -1,5 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+
 import useScrollVisibility from "../hooks/useScrollVisibility";
 import "../styles/LanguageSwitcher.css";
 

@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import PropTypes from "prop-types"; // Import PropTypes
 
 const AnimatedSection = ({ children, className = "" }) => {
   return (
@@ -13,6 +14,12 @@ const AnimatedSection = ({ children, className = "" }) => {
       {children}
     </motion.div>
   );
+};
+
+// Define prop types
+AnimatedSection.propTypes = {
+  children: PropTypes.node.isRequired, // 'children' should be any renderable content
+  className: PropTypes.string, // 'className' is optional and should be a string
 };
 
 export default AnimatedSection;

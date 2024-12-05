@@ -1,5 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+
 import AnimatedSection from "../components/AnimatedSection";
 import "../styles/EducationSection.css";
 

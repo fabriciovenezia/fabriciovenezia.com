@@ -1,13 +1,16 @@
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
+
 import Header from "../components/Header";
-import BiographySection from "./BiographySection";
 import LanguageSwitcher from "../components/LanguageSwitcher";
+import doctorImage from "../assets/doctor.JPEG";
+
+import BiographySection from "./BiographySection";
 import ContactSection from "./ContactSection";
 import EducationSection from "./EducationSection";
 import ProfessionalSection from "./ProfessionalSection";
+
 import "../styles/App.css";
-import doctorImage from "../assets/doctor.JPEG";
 
 const Home = () => {
   const [selectedCategory, setSelectedCategory] = useState("biography");
@@ -38,14 +41,14 @@ const Home = () => {
 
   const renderContent = () => {
     switch (selectedCategory) {
-      case "contact":
-        return <ContactSection />;
-      case "education":
-        return <EducationSection />;
-      case "professional":
-        return <ProfessionalSection />;
-      default:
-        return <BiographySection text={t(selectedCategory)} />;
+    case "contact":
+      return <ContactSection />;
+    case "education":
+      return <EducationSection />;
+    case "professional":
+      return <ProfessionalSection />;
+    default:
+      return <BiographySection text={t(selectedCategory)} />;
     }
   };
 
