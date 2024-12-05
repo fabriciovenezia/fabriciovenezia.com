@@ -1,25 +1,72 @@
+:root {
+  --language-switcher-bottom: 24px;
+  --language-switcher-transition: 0.3s ease;
+  --language-text-color: rgb(0, 37, 69);
+}
+
 .language-switcher {
-    display: flex;
-    gap: 3vw;
-    position: absolute;
-    bottom: 24px;
-    right: 4.5%;
-    font-size: 18px;
-    transition: opacity 0.3s ease-in-out; /* Smooth fade effect */
+  position: fixed;
+  bottom: var(--language-switcher-bottom);
+  right: 4.5%;
+  display: flex;
+  font-size: 18px;
+  z-index: 1000;
+  transition: opacity var(--language-switcher-transition);
 }
 
 .language-option {
-    position: relative;
-    cursor: pointer;
-    color: rgb(0, 37, 69);
-    padding: 8px 0;
-    transition: color 0.3s ease-in-out, font-weight 0.3s ease-in-out;
-    width: 80px;
-    text-align: center;
+  cursor: pointer;
+  position: relative;
+  color: var(--language-text-color);
+  padding: 8px 0;
+  width: 100px;
+  text-align: center;
+  transition: all var(--language-switcher-transition);
 }
 
 .language-option:hover {
-    color: rgb(0, 37, 69);
-    font-weight: 600;
+  font-weight: 600;
+}
+
+.language-option.selected {
+  font-weight: 600;
+}
+
+.language-option .underline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--language-text-color);
+  transition: width var(--language-switcher-transition);
+}
+
+.language-option:hover .underline,
+.language-option.selected .underline {
+  width: 100%;
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+@media (max-width: 900px) {
+  .language-switcher {
+    --language-switcher-bottom: 16px;
+    right: 24px;
+  }
+
+  .language-option {
+    width: auto;
+    padding: 4px;
+  }
+}
+
+@media (max-width: 480px) {
+  .language-switcher {
+    font-size: 16px;
+  }
 }
 

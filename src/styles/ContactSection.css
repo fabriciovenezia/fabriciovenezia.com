@@ -1,0 +1,32 @@
+.contact-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-section {
+  margin-bottom: 30px;
+}
+
+.contact-section h3 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-links a {
+  color: #0066cc;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.contact-links a:hover {
+  color: #004499;
+  text-decoration: underline;
+} 

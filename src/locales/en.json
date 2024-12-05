@@ -1,0 +1,85 @@
+{
+	"categories": {
+		"biography": "Biography",
+		"professional": "Professional Experience",
+		"education": "Education",
+		"contact": "Contact"
+	},
+	"biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent scelerisque erat sit amet eros dictum, ac hendrerit metus tristique. Curabitur sit amet tempor turpis, et varius diam. Nam efficitur libero commodo, vestibulum magna nec, gravida nisi. Ut sit amet maximus lacus, sed facilisis est. Integer gravida sed dolor at iaculis. Ut dictum arcu sagittis nibh ullamcorper, ac mattis tellus molestie.\n\nPellentesque cursus quam eget nisi dignissim, at molestie felis commodo. Curabitur eget tortor interdum, suscipit libero eget, rhoncus ligula. Morbi elementum suscipit nibh at convallis. Praesent condimentum scelerisque nibh at bibendum. Integer tristique tempus arcu, sit amet gravida libero pulvinar scelerisque. Morbi lectus nisl, fermentum nec orci a, ultricies interdum libero.\n\nVestibulum felis purus, gravida dignissim tincidunt sit amet, congue eu erat. Fusce tincidunt, massa vitae hendrerit tincidunt, erat tortor mattis nulla, ultricies elementum dolor metus sit amet felis. Mauris semper pellentesque urna, vitae feugiat justo lobortis quis. Suspendisse aliquet felis sed ipsum ultricies, sit amet scelerisque urna dignissim. Donec semper varius nisi nec condimentum.\n\nAenean id fringilla neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse suscipit risus eu mi iaculis pulvinar. Cras tincidunt ut felis sit amet cursus. Pellentesque aliquet facilisis libero eget bibendum. Phasellus tincidunt semper enim, imperdiet tincidunt felis dignissim sit amet.\n\nCurabitur justo justo, efficitur non bibendum tristique, pellentesque vel massa. Nulla ut sollicitudin augue, elementum malesuada urna. Vestibulum ullamcorper felis sem, eu mattis elit tempor a. Ut accumsan arcu ut odio porta sollicitudin. Nulla feugiat diam ac finibus elementum. Ut dapibus semper semper.",
+	"professional": {
+		"intro": "Over 30 years of experience in dentistry, specializing in orthodontics and dental aesthetics.",
+		"positions": [
+			{
+				"title": "Director",
+				"workplace": "Odontologia Venezia",
+				"period": "2005 - Present",
+				"description": "Leading a team of dental professionals, providing comprehensive orthodontic and aesthetic dental care. Specializing in complex cases and implementing cutting-edge dental technologies."
+			},
+			{
+				"title": "Head of Orthodontics",
+				"workplace": "Centro Odontológico Rosario",
+				"period": "1995 - 2005",
+				"description": "Managed the orthodontics department, treating complex cases and mentoring junior dentists. Introduced new orthodontic techniques and treatment protocols."
+			},
+			{
+				"title": "Associate Dentist",
+				"workplace": "Clínica Dental Santa Fe",
+				"period": "1991 - 1995",
+				"description": "Provided general dentistry services while developing expertise in orthodontics and dental aesthetics. Participated in numerous continuing education programs."
+			}
+		],
+		"achievements": [
+			"Over 10,000 successful orthodontic cases treated",
+			"Pioneer in implementing digital orthodontics in Rosario",
+			"Regular speaker at national dental conferences",
+			"Member of the Argentine Association of Orthodontics",
+			"Certified instructor for various orthodontic systems"
+		]
+	},
+	"education": {
+		"degrees": [
+			{
+				"year": 1990,
+				"title": "Dentistry Graduate",
+				"institution": "National University of Rosario"
+			},
+			{
+				"year": 1991,
+				"title": "Dentistry Diploma"
+			},
+			{
+				"year": 2001,
+				"title": "Diploma in Mollin Technique and Straight Wire",
+				"institution": "SAO"
+			}
+		],
+		"continuousEducationTitle": "Continuous Postgraduate Education (1992-2018)",
+		"continuousEducation": [
+			"High Velocity Orthodontics",
+			"MBT, Roth and Rickets Orthodontic Techniques",
+			"Functional Orthopedics and Rapid Orthodontics",
+			"Treatment of retrognathia and promandibulism with Delaire-Verdon mask",
+			"Dental implantology applied to orthodontics and periodontics",
+			"Fixed and removable prosthetics, systems retained by attachments, posts, magnets and tangential bars",
+			"Gingival and periodontal surgery with laser and cautery",
+			"Prosthetic rehabilitation on single-phase surgical implants",
+			"Treatment of TMJ dysfunction, facial pain and persistent headaches"
+		]
+	},
+	"contact": {
+		"personal": {
+			"title": "Fabricio Venezia",
+			"email": "fabricio@odontologiavenezia.com",
+			"website": "www.fabriciovenezia.com",
+			"instagram": "@od.fabriciovenezia",
+			"whatsapp": "+54 341 5945355"
+		},
+		"clinic": {
+			"title": "Odontologia Venezia",
+			"email": "contacto@odontologiavenezia.com",
+			"website": "www.odontologiavenezia.com",
+			"instagram": "@odontologiavenezia",
+			"phone": "+54 341 8369025"
+		}
+	}
+}
