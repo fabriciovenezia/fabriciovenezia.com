@@ -80,6 +80,12 @@
 			"website": "www.odontologiavenezia.com",
 			"instagram": "@odontologiavenezia",
 			"phone": "+54 341 8369025"
+		},
+		"titles": {
+			"email": "Email",
+			"website": "Sitio Web",
+			"instagram": "Instagram",
+			"phone": "Teléfono"
 		}
 	}
 }

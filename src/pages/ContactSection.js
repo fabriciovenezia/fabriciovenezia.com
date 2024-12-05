@@ -9,6 +9,7 @@ const ContactSection = () => {
 
   const renderContactInfo = section => {
     const data = t(`contact.${section}`, { returnObjects: true });
+    const titles = t(`contact.titles`, { returnObjects: true });
 
     return (
       <AnimatedSection className="contact-section">
@@ -19,21 +20,21 @@ const ContactSection = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {data.email} - Email
+            {data.email} - {titles.email}
           </a>
           <a
             href={`https://${data.website}`}
             target="_blank"
             rel="noopener noreferrer"
           >
-            {data.website} - Sitio Web
+            {data.website} - {titles.website}
           </a>
           <a
             href={`https://www.instagram.com/${data.instagram.slice(1)}`}
             target="_blank"
             rel="noopener noreferrer"
           >
-            {data.instagram} - Instagram
+            {data.instagram} - {titles.instagram}
           </a>
           {section === "personal" ? (
             <a
@@ -41,7 +42,7 @@ const ContactSection = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {data.whatsapp} - WhatsApp
+              {data.whatsapp} - {titles.phone}
             </a>
           ) : (
             <a
@@ -49,7 +50,7 @@ const ContactSection = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {data.phone} - Teléfono
+              {data.phone} - {titles.phone}
             </a>
           )}
         </div>
