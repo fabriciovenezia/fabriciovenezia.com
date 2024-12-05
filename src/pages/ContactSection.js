@@ -42,7 +42,7 @@ const ContactSection = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {data.whatsapp} - {titles.phone}
+              {data.whatsapp} - {titles.whatsapp}
             </a>
           ) : (
             <a
