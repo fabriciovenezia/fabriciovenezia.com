@@ -15,9 +15,9 @@
 
 .education-list {
     list-style-type: disc; /* Display bullets for the list */
-    margin-top: -14px; /* Space between intro and list */
+    margin-top: -10px; /* Space between intro and list */
     margin-left: 0px; /* Indent the list slightly */
-    line-height: 1.7; /* Set specific line height for the list */
+    line-height: 2; /* Set specific line height for the list */
     font-size: 19px; /* Optional: Adjust the font size */
     text-align: left;
 }
@@ -55,11 +55,12 @@
 
     .education-text {
         text-align: left;
+        line-height: 1.6;
     }
 
     .education-list {
         margin-left: -15px; /* Adjust margins for mobile */
-        line-height: 1.8; /* Slightly tighter line height for smaller screens */
-        font-size: 16px;
+        line-height: 2; /* Slightly tighter line height for smaller screens */
+        font-size: 15px;
     }
 }

@@ -22,7 +22,7 @@ Lol
     Educación: `
       1990 - Graduado en Odontología, Universidad Nacional de Rosario.  
       1991 - Diplomado en Odontología.  
-      2001 - Diplomado en Técnica de Mollin y Arco Recto, SAO (308 horas cátedra).  
+      2001 - Diplomado en Técnica de Mollin y Arco Recto, SAO.  
       Formación continua de posgrado (1992-2018):  
         High Velocity Orthodontics.  
         Técnicas MBT, Roth y Rickets en ortodoncia.  

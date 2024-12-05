@@ -113,6 +113,6 @@
         width: auto; /* Allow dynamic width based on content */
         text-align: center;
         margin-right: 16px; /* Add spacing between options */
-        font-size: 18px;
+        font-size: 14px;
     }
 }
