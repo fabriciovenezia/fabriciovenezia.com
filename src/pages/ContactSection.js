@@ -9,7 +9,7 @@ const ContactSection = () => {
 
   const renderContactInfo = section => {
     const data = t(`contact.${section}`, { returnObjects: true });
-    const titles = t(`contact.titles`, { returnObjects: true });
+    const titles = t("contact.titles", { returnObjects: true });
 
     return (
       <AnimatedSection className="contact-section">
