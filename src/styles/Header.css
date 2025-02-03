@@ -1,6 +1,6 @@
 .header-container {
     text-align: left;
-    color: rgb(0, 37, 69);
+    color: #1f2a20;
   }
   
   .menu {
@@ -17,7 +17,7 @@
   .underline {
     height: 2px;
     width: 100%;
-    background: rgb(0, 37, 69);
+    background: #1f2a20;
     position: absolute;
     bottom: -5px;
     left: 0;

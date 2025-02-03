@@ -30,7 +30,7 @@
 
 /* Target links within the content-text component */
 .content-text a {
-  color: black !important; 
+  color: #1f2a20 !important; 
 }
 
 /* Optionally, change color when hovering over the link */

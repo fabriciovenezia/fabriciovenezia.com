@@ -1,7 +1,7 @@
 :root {
   --language-switcher-bottom: 24px;
   --language-switcher-transition: 0.3s ease;
-  --language-text-color: rgb(0, 37, 69);
+  --language-text-color: #1f2a20;
 }
 
 .language-switcher {

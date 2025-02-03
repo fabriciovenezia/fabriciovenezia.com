@@ -10,22 +10,46 @@
 		"intro": "Más de 30 años de experiencia en odontología, especializado en ortodoncia y estética dental.",
 		"positions": [
 			{
-				"title": "Director",
-				"workplace": "Odontologia Venezia",
-				"period": "2005 - Presente",
-				"description": "Liderando un equipo de profesionales odontológicos, brindando atención integral en ortodoncia y estética dental. Especializado en casos complejos e implementación de tecnologías dentales de vanguardia."
+				"title": "Odontólogo Externo",
+				"workplace": "El Trébol, Santa Fe",
+				"period": "2018 - Presente",
+				"description": "."
 			},
 			{
-				"title": "Jefe de Ortodoncia",
-				"workplace": "Centro Odontológico Rosario",
-				"period": "1995 - 2005",
-				"description": "Dirigí el departamento de ortodoncia, tratando casos complejos y mentoreando a odontólogos junior. Introduje nuevas técnicas ortodónticas y protocolos de tratamiento."
+				"title": "Odontologia Venezia",
+				"workplace": "Rosario, Santa Fe",
+				"period": "2000 - Presente",
+				"description": "."
 			},
 			{
-				"title": "Odontólogo Asociado",
-				"workplace": "Clínica Dental Santa Fe",
-				"period": "1991 - 1995",
-				"description": "Brindé servicios de odontología general mientras desarrollaba experiencia en ortodoncia y estética dental. Participé en numerosos programas de educación continua."
+				"title": "Director de Clínica Odontológica",
+				"workplace": "Selva, Santiago del Estero",
+				"period": "1996 - 2004",
+				"description": "A cargo de la realización de tratamientos complejos abarcando implantología, ortodoncia y prótesis fija."
+			},
+			{
+				"title": "Odontólogo Externo Itinerante",
+				"workplace": "Ciudad Autónoma de Buenos Aires",
+				"period": "1995 - 1998",
+				"description": "Miembro de equipo de cirugía implantológica."
+			},
+			{
+				"title": "Odontólogo Itinerante",
+				"workplace": "Norte de la Pcia. de Santa Fe (Tostado, Ceres, La Rubia, Colonia Rosa)",
+				"period": "1994 - 2000",
+				"description": "Visitas quincenales y mensuales realizando tratamientos de ortodoncia, ortopedia, implantes y prótesis fija."
+			},
+			{
+				"title": "Odontólogo Particular",
+				"workplace": "Villa Trinidad, Santa Fe",
+				"period": "1992 - 2000",
+				"description": "Consultorio privado realizando odontología general, ortodoncia, prótesis fija e implantes dentales."
+			},
+			{
+				"title": "Auxiliar en Ortodoncia y Ortopedia",
+				"workplace": "San Nicolás, Buenos Aires",
+				"period": "1990 - 1994",
+				"description": "A cargo, junto al Dr. Juan Carlos Venezia, de más de 60 casos abandonados por profesional tratante anteriormente a cargo (en inicio, mitad o por finalizar tratamiento) en Clínica General Savio."
 			}
 		],
 		"achievements": [
@@ -75,7 +99,7 @@
 			"whatsapp": "+54 341 5945355"
 		},
 		"clinic": {
-			"title": "Odontologia Venezia",
+			"title": "Odontología Venezia",
 			"email": "contacto@odontologiavenezia.com",
 			"website": "www.odontologiavenezia.com",
 			"instagram": "@odontologiavenezia",
